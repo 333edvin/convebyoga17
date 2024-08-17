@@ -43,7 +43,7 @@ export default function TreatmentSection() {
                     <div className="p-3 border  bg-white shadow-sm">
                         <h3 className="text-base md:text-lg font-bold">Chakra Healing & Meditation</h3>
                         <p className="text-sm md:text-base text-gray-600">
-                        A spiritual practice focusing on the body's energy centers (chakras) to restore balance, harmony, and vitality.
+                        A spiritual practice focusing on the body&apos;s energy centers (chakras) to restore balance, harmony, and vitality.
                         </p>
                     </div>
                     </Reveal>
