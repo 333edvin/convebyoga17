@@ -61,7 +61,7 @@ export default function Asanas() {
         <Image src={yogapng} alt="yoga" className="w-24 md:w-52"/>
         <h2 className="text-2xl md:text-4xl font-bold">Aasanas</h2>
         </div>
-        <div className="breadcrumbs text-sm ">
+        <div className="breadcrumbs text-sm  ">
             <ul>
             <li><a>Home</a></li>
             <li><a>Aasanas</a></li>
