@@ -1,6 +1,13 @@
 import Image from "next/image";
 import photo1 from '../../../public/images/sarwangasana.jpg';
 import photo2 from '../../../public/images/uttanasana.jpg';
+import photo3 from '../../../public/images/Virabhadrasana.jpg';
+import photo4 from '../../../public/images/Vrksasana.jpg';
+import photo5 from '../../../public/images/Bhujangasana.jpg';
+import photo6 from '../../../public/images/Trikonasana.jpg';
+import photo7 from '../../../public/images/Balasana.jpg';
+import photo8 from '../../../public/images/Bharadvajasana.jpg';
+import photo9 from '../../../public/images/Tadasana.jpg';
 import CTASection from "../components/CTASection";
 import TreatmentSection from "../containers/TreatmentSection";
 import yogapng from '../../../public/images/yogapng.png'
@@ -19,37 +26,37 @@ export default function Asanas() {
     },
     {
       id:3,
-      image: photo1,
+      image: photo3,
       title: "Virabhadrasana"
     },
     {
       id:4,
-      image: photo2,
+      image: photo4,
       title: "Vrksasana"
     },
     {
       id:5,
-      image: photo1,
+      image: photo5,
       title: "Bhujangasana"
     },
     {
       id:6,
-      image: photo2,
+      image: photo6,
       title: "Trikonasana"
     },
     {
       id:7,
-      image: photo2,
+      image: photo7,
       title: "Balasana"
     },
     {
       id:8,
-      image: photo2,
+      image: photo8,
       title: "Bharadvajasana"
     },
     {
       id:9,
-      image: photo2,
+      image: photo9,
       title: "Tadasana"
     },
   ];

@@ -1,8 +1,11 @@
 import Image from "next/image";
 import sarwangasana from '../../../public/images/sarwangasana.jpg';
 import uttanasana from '../../../public/images/uttanasana.jpg';
-import face5 from '../../../public/images/face5.jpg';
-import face3 from '../../../public/images/face3.jpg';
+import Virabhadrasana from '../../../public/images/Virabhadrasana.jpg';
+import Vrksasana from '../../../public/images/Vrksasana.jpg';
+import Bhujangasana from '../../../public/images/Bhujangasana.jpg';
+import Trikonasana from '../../../public/images/Trikonasana.jpg';
+
 import { FaCircleArrowRight } from "react-icons/fa6";
 import Link from "next/link";
 import Slide from "../components/framermotion/SlidingAnim";
@@ -21,22 +24,22 @@ const services = [
     {
         id:3,
         title: "Virabhadrasana",
-        image: face5,
+        image: Virabhadrasana,
     },
     {
         id:4,
         title: "Vrksasana",
-        image: uttanasana,
+        image: Vrksasana,
     },
     {
         id:5,
         title: "Bhujangasana",
-        image: face3,
+        image: Bhujangasana,
     },
     {
         id:6,
         title: "Trikonasana",
-        image: uttanasana,
+        image: Trikonasana,
     },
 ];
 

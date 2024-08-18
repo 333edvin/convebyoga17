@@ -49,10 +49,14 @@ export default function TableSection() {
           <tbody>
             {timings.map((schedule, index) => (
               <tr key={index}>
-                <td className="border border-gray-300 p-2">{schedule.time}</td>
+                <td className="border border-gray-300 p-2">Timings</td>
                 {schedule.days.map((day, idx) => (
                   <td key={idx} className="border border-gray-300 p-2">
-                    {day}
+                    {day} <br/>
+            <p clasName="text-sm">
+                    {schedule.time}
+            </p>
+                   
                   </td>
                 ))}
               </tr>
