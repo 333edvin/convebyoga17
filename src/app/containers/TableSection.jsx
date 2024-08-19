@@ -53,7 +53,7 @@ export default function TableSection() {
                 {schedule.days.map((day, idx) => (
                   <td key={idx} className="border border-gray-300 p-2">
                     {day} <br/>
-            <p clasName="text-sm">
+            <p className="text-sm">
                     {schedule.time}
             </p>
                    

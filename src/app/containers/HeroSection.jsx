@@ -1,11 +1,18 @@
+
 import Image from "next/image";
 import banner from '../../../public/images/banner2.jpeg'
 import face1 from '../../../public/images/face2.jpg'
 import face2 from '../../../public/images/face1.jpg'
 import face3 from '../../../public/images/face3.jpg'
 import { Playfair_Display } from "next/font/google";
+
+
+
 const playfairfont = Playfair_Display({ subsets: ["latin"] });
+
 export default function Hero() {
+ 
+
     return (
         <div className="relative">
             <Image src={banner} alt="banner" className="w-fill h-screen object-cover" />
